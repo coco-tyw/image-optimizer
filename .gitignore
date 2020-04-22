@@ -19,3 +19,10 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Images
+*.gif
+*.png
+*.jpeg
+*.jpe
+*.webp
