@@ -1,0 +1,23 @@
+{
+  "name": "image_optimizer",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "node dist/index.js",
+    "dev": "NODE_ENV=development nodemon --config ./nodemon.json",
+    "tsc": ".\\node_modules\\.bin\\tsc",
+    "build": "rimraf dist && tsc -p tsconfig.json --outDir dist"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.25.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "@types/sharp": "^0.24.0",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.9.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.8.3"
+  }
+}
